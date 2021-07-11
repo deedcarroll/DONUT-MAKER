@@ -1,0 +1,51 @@
+.sidenav button {
+    position: absolute; /* Position them relative to the browser window */
+    left: -60px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    height: 100px;
+  }
+  
+  .sidenav button:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  .make_donut  {
+    top: 30px;
+    background-color: #04AA6D;
+  }
+
+  .autoClickerButton  {
+    top: 130px;
+    background-color: #04AA6D;
+  }
+
+  .donutMultiplierButton  {
+    top: 230px;
+    background-color: #04AA6D;
+  }
+
+  
+  .dashboard{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:auto;
+  }
+  .donut_counter{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:auto; */
+
+
+}
+  
+  
+  
