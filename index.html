@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peter Pan Donuts</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/confetti.css">
     <link rel="stylessheet" type="text/css" href=main.css" />
@@ -17,9 +18,9 @@
 <div class="topnav">
     <a class="font-effect-emboss" class="active" href="#home">Home</a>
     <a id="abtBtn" href="">About Peter Pan</a>
-    <a href="https://orteil.dashnet.org/cookieclicker/" target ="_blank">Our Inspiration</a>
-    <a href="https://github.com/deedcarroll" target = "_blank">Developer</a>
-  </div>
+    <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank">Our Inspiration</a>
+    <a href="https://github.com/deedcarroll" target="_blank">Developer</a>
+</div>
 
 
 
@@ -27,23 +28,29 @@
     <canvas id="canvas" width="100" height="100"> </canvas>
     <audio id="myAudio">
         <source src='/src/sound/mmmmm donuts.mp3' type="audio/mp3">
+        <source src='/src/sound/mixkit-male-voice-cheer-2010.wav' type="audio/wav">
+    </audio>
+    <audio id="audioTwo">
+                <source src='/src/sound/mixkit-male-voice-cheer-2010.wav' type="audio/wav">
     </audio>
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
-          <h1>ABOUT PETER PAN DONUTS</h1>
-          <hr/>
-          <p>Peter Pan Donuts was a staple in East Cleveland for many years. A popular all-night eatery on East Cleveland's main drag. Specializing in Polish boys, chicken wings and of course a wide variety of donuts. This page is created in Homage to the fallen East Cleveland Landmark. </p>
+            <span class="close">&times;</span>
+            <h1>ABOUT PETER PAN DONUTS</h1>
+            <hr />
+            <p>Peter Pan Donuts was a staple in East Cleveland for many years. A popular all-night eatery on East
+                Cleveland's main drag. Specializing in Polish boys, chicken wings and of course a wide variety of
+                donuts. This page is created in Homage to the fallen East Cleveland Landmark. </p>
         </div>
-      
-      </div>
+
+    </div>
 
     <div class="container">
 
         <main>
-            <hr/>
+            <hr />
             <section class="donut_maker">
                 <div id="counter" class="donut_counter"></div>
                 <div class="autoclickercount"></div>
@@ -69,7 +76,7 @@
         <button class="donutMultiplierButton"> Donut Multiplier</button>
         <button class="reset"> RESET </button>
     </div>
-   
+
 
     <script src="/src/js/Donut.js"></script>
     <script src="/src/js/app.js"></script>

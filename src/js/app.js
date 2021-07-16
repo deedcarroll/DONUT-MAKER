@@ -14,6 +14,7 @@ const modal = document.getElementById("myModal");
 const span = document.getElementsByClassName("close")[0];
 let burstLevel = 100;
 const audio = document.getElementById("myAudio");
+const newAudio = document.getElementById("audioTwo");
 
 let refreshDonutText = setInterval(UpdateText, 500);
 
@@ -23,6 +24,7 @@ addDonutsBtn.addEventListener("click", function () {
     if (myDonut.getDonutCount() >= burstLevel) {
         createBurst();
         burstLevel += 100;
+        newAudio.play();
     }
 });
 
@@ -58,7 +60,7 @@ function CheckBuyButtons() {
 
 MyAbtBtn.addEventListener("click", function () {
     event.preventDefault();
-    modal.style.display = "block"; 
+    modal.style.display = "block";
 });
 
 span.addEventListener("click", function () {
