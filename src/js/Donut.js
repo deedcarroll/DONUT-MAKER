@@ -1,5 +1,12 @@
 class Donut {
     constructor() {
+        this.ResetGame();
+        
+             
+
+    }
+
+    ResetGame(){
         this.donutCount = 0;
         this.autoClickerCount = 0;
         this.autoClickerCost= 100;
@@ -7,7 +14,6 @@ class Donut {
         this.donutMultiplierCost = 10;
         this.earnedDonuts = 1;
         this.autoClickerIntervalID = undefined;
-        
 
     }
     IncreasePrice() {
@@ -34,6 +40,7 @@ class Donut {
                 this.autoClickerIntervalID = self.setInterval
                     (this.AutoMakeDonuts, 1000)
             }
+            
             this.donutCount -= this.autoClickerCost;
             this.autoClickerCost = this.autoClickerCost + this.autoClickerCost * 0.1;
         }
@@ -56,7 +63,7 @@ class Donut {
 
 
     getDonutCount() {
-        return this.donutCount.toFixed(2);
+        return this.donutCount;
         
     }
 
@@ -72,8 +79,8 @@ class Donut {
         return this.autoClickerCost;
     }
 
-    getMultiplierCost{
-        return this.donutMultiplierCost.toFixed(2);
+    getMultiplierCost(){
+        return this.donutMultiplierCost;
     }
 
 }

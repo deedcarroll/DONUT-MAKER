@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Pan Donuts</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/confetti.css">
+    <link rel="stylessheet" type="text/css" href=main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sidebar</title>
+</head>
+<div class="topnav">
+    <a class="font-effect-emboss" class="active" href="#home">Home</a>
+    <a id="abtBtn" href="">About Peter Pan</a>
+    <a href="https://orteil.dashnet.org/cookieclicker/" target ="_blank">Our Inspiration</a>
+    <a href="https://github.com/deedcarroll" target = "_blank">Developer</a>
+  </div>
+
+
+
+<body>
+    <canvas id="canvas" width="100" height="100"> </canvas>
+    <audio id="myAudio">
+        <source src='/src/sound/mmmmm donuts.mp3' type="audio/mp3">
+    </audio>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>ABOUT PETER PAN DONUTS</h1>
+          <hr/>
+          <p>Peter Pan Donuts was a staple in East Cleveland for many years. A popular all-night eatery on East Cleveland's main drag. Specializing in Polish boys, chicken wings and of course a wide variety of donuts. This page is created in Homage to the fallen East Cleveland Landmark. </p>
+        </div>
+      
+      </div>
+
+    <div class="container">
+
+        <main>
+            <hr/>
+            <section class="donut_maker">
+                <div id="counter" class="donut_counter"></div>
+                <div class="autoclickercount"></div>
+                <div class="multipiercount"></div>
+                <div class="autoclickercost"></div>
+                <div class="multiplycost"></div>
+
+
+            </section>
+            <section class="dashboard">
+                <!-- <button class="fas fa-dot-circle make_donut">ADD DONUTS!</button>
+                <button class="autoClickerButton"> Auto Add Donuts</button>
+                <button class="donutMultiplierButton"> More Donuts</button> -->
+
+            </section>
+
+        </main>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <!-- <a href="#" id="about">DONUTS<img src="/src/images/pngtree-donut-cartoon-image_1483719.jpg" width="20px" /></a> -->
+        <button class="fas fa-dot-circle make_donut"> Click 4 Donuts</button>
+        <button class="autoClickerButton"> Donut Auto Clicker</button>
+        <button class="donutMultiplierButton"> Donut Multiplier</button>
+        <button class="reset"> RESET </button>
+    </div>
+   
+
+    <script src="/src/js/Donut.js"></script>
+    <script src="/src/js/app.js"></script>
+    <script src="/src/js/confetti.js"></script>
+
+</body>
+
+</html>
