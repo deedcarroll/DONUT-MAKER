@@ -1,7 +1,7 @@
 const canvas = document.getElementById('canvas'); // grabs our canvas
 const context = canvas.getContext('2d');
 let donut = new Image();
-donut.src = "./src/images/donuts.png";
+donut.src = "src/images/donuts.png";
 let particleArray = []; // square brackets mean we have an array
 const maxSize = 200;
 
