@@ -1,5 +1,5 @@
 body {
-  background-image: url("/src/images/084b785f918b9abc9a5a9fd088a5c746.jpg"), url("/src/images/tenor.gif");
+  background-image: url("../images/084b785f918b9abc9a5a9fd088a5c746.jpg"), url("../images/tenor.gif");
   background-attachment: fixed;
   background-repeat: no-repeat, repeat;
   background-position: center, right;
